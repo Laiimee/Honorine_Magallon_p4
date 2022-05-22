@@ -88,6 +88,7 @@ a:hover {
     bottom: 0;
     left: 0;
     right: 0;
+    z-index: -1;
 }
 
 .texture-paper::before {
@@ -677,7 +678,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1em;
 }
 
 .tight-width-whitespace {
@@ -775,7 +776,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color: #ffffff!important;
 }
 
 .btn-atomic-tangerine {
@@ -1026,6 +1027,28 @@ h4 {
         width: 180px;
         height: 320px;
     }
+}
+h4{
+    font-size: 1.5em;
+    margin: 0 5vh;
+}
+ul{
+    list-style: none;
+    padding: 0;
+}
+.autor{
+    font-size: 1.3em;
+    font-weight: 300
+}
+
+.col-md-offset-2{
+    background: #F3976C;
+    color: white;
+    padding: 33px;
+}
+
+.white{
+    color: #FFF !important;
 }
 
 @media (max-width: 400px) {
